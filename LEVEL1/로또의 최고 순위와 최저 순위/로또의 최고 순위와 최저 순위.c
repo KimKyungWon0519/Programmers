@@ -45,3 +45,9 @@ int* solution(int lottos[], size_t lottos_len, int win_nums[], size_t win_nums_l
 
     return answer;
 }
+
+int main() {
+    int lottos[] = { 44, 1, 0, 0, 31, 25 }, win_nums[] = { 31, 10, 45, 1, 6, 19 };
+
+    solution(lottos, sizeof(lottos) / sizeof(int), win_nums, sizeof(win_nums) / sizeof(int));
+}
