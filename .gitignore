@@ -1,0 +1,12 @@
+LEVEL1/.vs
+
+LEVEL1/Debug/
+*.vcxproj
+*.filters
+*.user
+*.recipe
+*.log
+*.obj
+*.idb
+*.pdb
+*.tlog
