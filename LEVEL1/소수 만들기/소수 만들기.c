@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
 
-// nums_lenÀº ¹è¿­ numsÀÇ ±æÀÌÀÔ´Ï´Ù.
+// nums_lenì€ ë°°ì—´ numsì˜ ê¸¸ì´ì…ë‹ˆë‹¤.
 int solution(int nums[], size_t nums_len) {
     int answer = 0;
 
@@ -30,6 +30,6 @@ int solution(int nums[], size_t nums_len) {
 
 int main() {
     int arr[] = { 1, 2, 3, 4 };
-    
+
     solution(arr, sizeof(arr) / sizeof(int));
 }
