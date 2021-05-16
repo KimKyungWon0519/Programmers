@@ -31,5 +31,5 @@ int solution(int nums[], size_t nums_len) {
 int main() {
     int arr[] = { 1, 2, 3, 4 };
     
-    solution(arr, sizeof(arr) * sizeof(int));
+    solution(arr, sizeof(arr) / sizeof(int));
 }
