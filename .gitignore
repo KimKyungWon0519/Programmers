@@ -1,6 +1,8 @@
 LEVEL1/.vs
+LEVEL2/.vs
 
 LEVEL1/Debug/
+LEVEL2/Debug/
 *.vcxproj
 *.filters
 *.user
